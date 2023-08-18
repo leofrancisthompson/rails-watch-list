@@ -1,6 +1,5 @@
 class MoviesController < ApplicationController
-  class MoviesController < ApplicationController
-    def index
-      @movies = Movie.all
-    end
+  def index
+    @movies = Movie.all
   end
+end
